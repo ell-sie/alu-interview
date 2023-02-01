@@ -28,4 +28,3 @@ def minOperations(n):
             i *= 2
             operations += 1
     return 0
-
