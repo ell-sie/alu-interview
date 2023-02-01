@@ -16,7 +16,7 @@ def minOperations(n):
     while number < n:
         if n % number == 0:
             copy = number
-            number = 2* copy
+            number = 2 * copy
             operations += 2
         else:
             number += copy
