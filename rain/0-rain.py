@@ -1,4 +1,18 @@
 #!/usr/bin/python3
+"""Calculate the amount of water retained by a set of walls.
+
+    Args:
+        walls (list of int): A list of non-negative integers representing the heights of walls
+                             with unit width 1.
+
+    Returns:
+        int: The total amount of water retained in square units.
+
+    Assumptions:
+        - The ends of the list (before index 0 and after index walls[-1]) are not walls,
+          meaning they will not retain water.
+        - If the list is empty, the function returns 0.
+    """
 def rain(walls):
     if not walls:
         return 0
