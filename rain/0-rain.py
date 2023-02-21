@@ -13,6 +13,8 @@
           are not walls, meaning they will not retain water.
         - If the list is empty, the function returns 0.
     """
+
+
 def rain(walls):
     if not walls:
         return 0
