@@ -18,4 +18,4 @@ class Solution:
                     triangles[i].append(1)
                 else:
                     triangles[i].append(triangles[i - 1][j - 1] + triangles[i - 1][j])
-        return
+        return triangles
