@@ -4,8 +4,8 @@
     Returns:
         A list of lists representing the Pascal's Triangle with n rows.
     """
-    
-    
+
+
 def pascal_triangle(n):
     '''returns empty list if n <= 0'''
     if n <= 0:
